@@ -6,6 +6,15 @@
     "description": "Adds custom episode naming expressions for better parsing",
     "owner": "LinFor",
     "overview": "Extended episode naming support for Jellyfin",
-    "versions": []
+    "versions": [
+      {
+        "version": "10.11.1.0",
+        "checksum": "2397c5e16c092529eb99998259d3c2b7",
+        "changelog": "Initial release",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/LinFor/jellyfin-plugin-extended-naming/releases/download/v10.11.1.0/jellyfin-plugin-extended-naming_10.11.1.0.zip",
+        "timestamp": "2026-01-16T19:29:17Z"
+      }
+    ]
   }
 ]
