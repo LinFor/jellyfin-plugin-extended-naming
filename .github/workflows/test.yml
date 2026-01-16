@@ -1,0 +1,25 @@
+name: Pull Request Check
+
+on:
+  pull_request:
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v6
+
+    - name: Setup .NET 9.0
+      uses: actions/setup-dotnet@v5
+      with:
+        dotnet-version: 9.0.x
+
+    - name: Build project
+      run: dotnet build --configuration Release .
+
+    - name: Test project
+      run: dotnet test --configuration Release .

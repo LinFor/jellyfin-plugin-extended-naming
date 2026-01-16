@@ -1,0 +1,11 @@
+[
+  {
+    "category": "General",
+    "guid": "a3df8fb9-836d-4e38-a16b-aea22f1fcba8",
+    "name": "Extended Media Files Patterns",
+    "description": "Adds custom episode naming expressions for better parsing",
+    "owner": "LinFor",
+    "overview": "Extended episode naming support for Jellyfin",
+    "versions": []
+  }
+]
